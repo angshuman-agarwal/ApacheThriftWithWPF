@@ -16,5 +16,5 @@ This is a very naive example of an Apache Thrift server running inside a WPF app
 - This will generate a Javascript file (under `gen-nodejs` folder) which we will use for our JS client. Copy the files in the same location as of `client.js` file
 - `npm install thrift` and use in your `client.js` file
 - Run the client by typing  `node client.js` on the command line from the folder path of  `client.js`.
-- In our example, you should se the output on the console as well as a new Window getting created via the Thrift server running inside the WPF app. 
+- In our example, you should see the output on the console as well as a new Window getting created via the Thrift server running inside the WPF app. 
 
