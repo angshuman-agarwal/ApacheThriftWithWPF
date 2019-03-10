@@ -1,7 +1,7 @@
 # ApacheThriftWithWPF
 This is a very naive example of an Apache Thrift server running inside a WPF app accessed using a Node based Javascript Client. But, it works fine for my purpose !
 
-### How to build the C# server
+### How to build the C# based Thrift server
 - Step 1: Install NuGet Package for the C# library 
 	- `Install-Package ApacheThrift -Version 0.12.0`
 - Step 2: Generate the C# class using the Thrift `IDL` file (`ServiceContract.thrift`)
@@ -10,7 +10,7 @@ This is a very naive example of an Apache Thrift server running inside a WPF app
 	- Implement the `ThriftServiceHandler` and build the solution.
 	- Run the server by doing `F5` on the VS editor
 
-### How to Build the Node Javascript Client
+### How to Build the Node based Javascript Thrift client 
 - Use the same IDL file (`ServiceContract.thrift`) to generate a node based JS file
 - Run this command (notice the `js:node` language option) - `thrift-0.12.0.exe --gen js:node ServiceContract.thrift`
 - This will generate a Javascript file (under `gen-nodejs` folder) which we will use for our JS client. Copy the files in the same location as of `client.js` file
