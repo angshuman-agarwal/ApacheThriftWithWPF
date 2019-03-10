@@ -13,7 +13,7 @@ connection.on('error', function(err) {
 	  console.log(err);
 	});
 	
-	// // Create a Calc client with the connection
+	// // Create a service client with the connection
 var client = thrift.createClient(svc,connection);
 //console.log(client);
 
