@@ -1,4 +1,4 @@
-# ApacheThriftWithWPF
+# ApacheThriftWithWPFAndNodeJS
 This is a very naive example of an Apache Thrift server running inside a WPF app accessed using a Node based Javascript Client. But, it works fine for my purpose !
 
 ### How to build the C# based Thrift server
